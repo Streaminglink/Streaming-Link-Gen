@@ -27,7 +27,7 @@ async def handle_force_sub(bot, cmd):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("🤖 Join My Channel", url=invite_link)
+                            InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link)
                         ]
                     ]
                 ),
