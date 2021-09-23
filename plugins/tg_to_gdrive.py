@@ -56,7 +56,7 @@ async def tg_to_gdrive_upload(bot, update):
         size = get_readable_file_size(get_path_size(download_directory))
         try:
             await bot.edit_message_text(
-                text="📥Download Completed!!!\nNow Generating 🎬streaming 🔗links.",
+                text="📥Download Completed!!!\nNow Generating 🎬Streaming 🔗links.",
                 chat_id=reply_message.chat.id,
                 message_id=reply_message.message_id
             )
@@ -67,7 +67,7 @@ async def tg_to_gdrive_upload(bot, update):
         drive = gdriveTools.GoogleDriveHelper(up_name)
         gd_url, index_url = drive.upload(download_directory)
         uri = str_to_b64(index_url)
-        url = f"https://stream.xadityax.tk/play?id={uri}"
+        url = f"https://stream.jigarvarma.tk/play?id={uri}"
         button_markup = InlineKeyboardMarkup([[InlineKeyboardButton(text="Play On Website", url=url)]])
         await bot.send_message(
             text=f"<b>Streaming link Generated</b> \n\n<b>File:</b> {up_name} \n\n<b>Size:</b> {size}\n\n<b>Link:</b>{url}",
