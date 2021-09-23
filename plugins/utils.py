@@ -44,7 +44,7 @@ async def brightcove(bot, update):
     uri = await input_str(bot, update,msg)
     if uri == 404:
         return
-    uri = "https://stream.LatestNetflixMovie2021.tk/brightcove?id=" + uri
+    uri = "https://stream.xadityax.tk/brightcove?id=" + uri
     await update.reply_text(text="Use the below url to stream in website",
                             reply_markup=InlineKeyboardMarkup(
                                     [[
@@ -61,7 +61,7 @@ async def jwplayer_(bot, update):
     uri = await input_str(bot, update,msg)
     if uri == 404:
         return
-    uri = "https://stream.LatestNetflixMovie2021.tk/jw?id=" + uri
+    uri = "https://stream.xadityax.tk/jw?id=" + uri
     await update.reply_text(text="Use the below url to stream in website",
                             reply_markup=InlineKeyboardMarkup(
                                     [[
@@ -78,7 +78,7 @@ async def yt__(bot, update):
     uri = await input_str(bot, update,msg)
     if uri == 404:
         return
-    uri = "https://stream.LatestNetflixMovie2021.tk/yt?id=" + uri
+    uri = "https://stream.xadityax.tk/yt?id=" + uri
     await update.reply_text(text="Use the below url to stream in website",
                             reply_markup=InlineKeyboardMarkup(
                                     [[
@@ -95,7 +95,7 @@ async def m3u8_(bot, update):
     uri = await input_str(bot, update,msg)
     if uri == 404:
         return
-    uri = "https://stream.LatestNetflixMovie2021.tk/m3u8?id=" + uri
+    uri = "https://stream.xadityax.tk/m3u8?id=" + uri
     await update.reply_text(text="Use the below url to stream in website",
                             reply_markup=InlineKeyboardMarkup(
                                     [[
@@ -112,7 +112,7 @@ async def mpd_(bot, update):
     uri = await input_str(bot, update,msg)
     if uri == 404:
         return
-    uri = "https://stream.LatestNetflixMovie2021.tk/mpd?id=" + uri
+    uri = "https://stream.xadityax.tk/mpd?id=" + uri
     await update.reply_text(text="Use the below url to stream in website",
                             reply_markup=InlineKeyboardMarkup(
                                     [[
@@ -129,7 +129,7 @@ async def direct_player_(bot, update):
     uri = await input_str(bot, update,msg)
     if uri == 404:
         return
-    uri = "https://stream.LatestNetflixMovie2021.tk/play?id=" + uri
+    uri = "https://stream.xadityax.tk/play?id=" + uri
     await update.reply_text(text="Use the below url to stream in website",
                             reply_markup=InlineKeyboardMarkup(
                                     [[
