@@ -17,7 +17,7 @@ async def help_user(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Update Channel", url="https://t.me/LatestNetflixMovie2021"),
+                    InlineKeyboardButton("Support Channel", url="https://t.me/LatestNetflixMovie2021"),
                     InlineKeyboardButton("Support Group", url="https://t.me/Request_Moviesz")
                 ],
                 [
@@ -44,7 +44,7 @@ async def start(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Update Channel", url="https://t.me/LatestNetflixMovie2021"),
+                    InlineKeyboardButton("Suppor Channel", url="https://t.me/LatestNetflixMovie2021"),
                     InlineKeyboardButton("Support Group", url="https://t.me/Request_Moviesz")
                 ],
                 [
