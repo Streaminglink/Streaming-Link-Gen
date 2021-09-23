@@ -17,11 +17,11 @@ async def help_user(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🚨Support Channel🚨", url="https://t.me/LatestNetflixMovie2021"),
-                    InlineKeyboardButton("👷Support Group👷", url="https://t.me/Request_Moviesz")
+                    InlineKeyboardButton("Support Channel", url="https://t.me/LatestNetflixMovie2021"),
+                    InlineKeyboardButton("Support Group", url="https://t.me/Request_Moviesz")
                 ],
                 [
-                    InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/Aditya1190")
+                    InlineKeyboardButton("Devloper", url="https://t.me/Aditya1190")
                 ]
             ]
         ),
@@ -44,11 +44,11 @@ async def start(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🚨Support Channel🚨", url="https://t.me/LatestNetflixMovie2021"),
-                    InlineKeyboardButton("👷Support Group👷", url="https://t.me/Request_Moviesz")
+                    InlineKeyboardButton("Support Channel", url="https://t.me/LatestNetflixMovie2021"),
+                    InlineKeyboardButton("Support Group", url="https://t.me/Request_Moviesz")
                 ],
                 [
-                    InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/Aditya1190")
+                    InlineKeyboardButton("Devloper", url="https://t.me/Aditya1190")
                 ]
             ]
         ),
