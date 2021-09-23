@@ -44,7 +44,7 @@ async def start(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Suppor Channel", url="https://t.me/LatestNetflixMovie2021"),
+                    InlineKeyboardButton("Support Channel", url="https://t.me/LatestNetflixMovie2021"),
                     InlineKeyboardButton("Support Group", url="https://t.me/Request_Moviesz")
                 ],
                 [
